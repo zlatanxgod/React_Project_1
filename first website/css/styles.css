@@ -1,0 +1,31 @@
+/* apply below style to all elements in the page */
+* {
+  font-family: "Open Sans", sans-serif;
+  color: aqua;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; /*to avoid box model problem , margin ,padding, border does not affect  */
+  outline: none; /* outline along button */
+  border: none;
+  text-decoration: none; /* removes underline from anchor tag */
+  text-transform: capitalize; /* First letter capital */
+  overflow: hidden; /* clips off extra part going out of the box */
+  scroll-behavior: smooth; /* smooth effect */
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 60px;
+  /* background: green; */
+}
+
+/* .header .nav-bar {
+  display: flex;
+}
+
+.header .nav-bar a {
+  flex: 1;
+} */
