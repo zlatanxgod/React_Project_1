@@ -24,7 +24,8 @@
 }
 
 .header .nav-bar {
-  display: flex; /* make it flex, for moving   */
+  display: flex; /* make it flex, for moving  THIS IS THE LATEST ITERATION OF FLEXBOX */
+  /* by default row wise align */
 }
 .header .nav-bar a {
   /*  now targeting every anchor tag */
@@ -33,5 +34,34 @@
   font-size: 22px;
   line-height: 64px; /* distance between lines ,for aligning center vertically */
   color: aliceblue;
+
   justify-content: center;
+}
+/* applying pseudo selector */
+
+.header .nav-bar a:hover {
+  filter: brightness(0.8);
+  color: skyblue;
+}
+
+.header .nav-bar span {
+  margin-left: 10px;
+}
+
+/* Styling main body section */
+
+.container {
+  display: flex;
+  width: 500%;
+  height: 100vh;
+}
+
+.container .main-section {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  align-items: center; /*aligns vertically center*/
+  align-items: center; /*aligns horizontally center*/
+  justify-content: center;
+  font-size: 5rem;
 }
