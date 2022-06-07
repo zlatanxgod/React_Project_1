@@ -63,5 +63,15 @@
   align-items: center; /*aligns vertically center*/
   align-items: center; /*aligns horizontally center*/
   justify-content: center;
-  font-size: 5rem;
+  font-size: 8vw; /* for responsive behavious */
+  letter-spacing: 0.5rem; /* space between letters */
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Apply meadia quesry to apply for styling wrt different devices */
+@media (max-width: 600px) {
+  .header .nav-bar a span {
+    display: none; /* hides the menu text , only shows icon, upto 600px */
+  }
 }
