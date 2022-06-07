@@ -1,7 +1,6 @@
 /* apply below style to all elements in the page */
 * {
   font-family: "Open Sans", sans-serif;
-  color: aqua;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box; /*to avoid box model problem , margin ,padding, border does not affect  */
@@ -13,12 +12,14 @@
   scroll-behavior: smooth; /* smooth effect */
 }
 
+/* styling menu section */
 .header {
-  position: fixed;
+  position: fixed; /* remain fixed on scrolling */
   top: 0px;
   left: 0px;
   right: 0px;
   height: 60px;
+  background-color: green;
   /* background: green; */
 }
 
