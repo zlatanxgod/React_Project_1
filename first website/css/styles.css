@@ -18,15 +18,20 @@
   top: 0px;
   left: 0px;
   right: 0px;
-  height: 60px;
-  background-color: green;
-  /* background: green; */
+  height: 64px;
+  background-color: pink;
+  z-index: 100; /* header menu item for raised */
 }
 
-/* .header .nav-bar {
-  display: flex;
+.header .nav-bar {
+  display: flex; /* make it flex, for moving   */
 }
-
 .header .nav-bar a {
-  flex: 1;
-} */
+  /*  now targeting every anchor tag */
+  flex: 1; /* equally spaced */
+  text-align: center; /* for aligning text in flex box item to horizontal center */
+  font-size: 22px;
+  line-height: 64px; /* distance between lines ,for aligning center vertically */
+  color: aliceblue;
+  justify-content: center;
+}
